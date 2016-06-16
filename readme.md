@@ -8,8 +8,15 @@
     
     git checkout -b feature/some_feature
 
-do some work on some feature
+travailler sur la feature
+pusher pour faire des sauvegardes régulières
 
     git push origin feature/some_feature
+
+
+Rester à jour des évolutions de develop régulièrement
+
+    git fetch origin
+    git rebase origin/develop
 
 
