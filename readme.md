@@ -8,3 +8,8 @@
     
     git checkout -b feature/some_feature
 
+do some work on some feature
+
+    git push origin feature/some_feature
+
+
