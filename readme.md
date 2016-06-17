@@ -1,10 +1,9 @@
 
-
 # Creation d'une branche de feature
 
-    git checkout master
+    git checkout develop
     git fetch origin
-    git pull -rebase master
+    git pull -rebase develop
     
     git checkout -b feature/some_feature
 
