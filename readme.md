@@ -18,4 +18,13 @@ Rester à jour des évolutions de develop régulièrement
     git fetch origin
     git rebase origin/develop
 
+## Passer en production
+
+    git tag x.x.0
+    git push origin x.x.0
+
+    git checkout master
+    git merge 1.0.0
+    git push origin master
+
 
